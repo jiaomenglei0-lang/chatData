@@ -1,0 +1,60 @@
+{
+  "version": "20260326",
+  "roles": {
+    "PHONE_01_TOM": {
+      "app_package": "com.whatsapp",
+      "my_name": "Tom",
+      "schedule": [
+        {
+          "time": "09:00",
+          "action": "send",
+          "target": "Jack",
+          "content_pool": ["早啊 Jack，今天天气不错！", "嘿，昨晚那个计划想得怎么样了？", "早安！"],
+          "random_delay_min": 0,
+          "random_delay_max": 5
+        },
+        {
+          "time": "12:30",
+          "action": "send",
+          "target": "Jack",
+          "content_pool": ["中午了，吃饭没？", "刚忙完，累死了。"],
+          "random_delay_min": 2,
+          "random_delay_max": 10
+        },
+        {
+          "time": "14:00",
+          "action": "close_app",
+          "description": "午休结束，关闭应用"
+        }
+      ]
+    },
+    "PHONE_02_JACK": {
+      "app_package": "com.whatsapp",
+      "my_name": "Jack",
+      "schedule": [
+        {
+          "time": "09:05", 
+          "action": "reply",
+          "trigger_keyword": ["早", "早安"], 
+          "target": "Tom",
+          "content_pool": ["早啊 Tom！是啊，天气真好。", "早！正想找你呢。"],
+          "wait_for_msg": true, 
+          "timeout_min": 1,
+          "timeout_max": 4
+        },
+        {
+          "time": "12:35",
+          "action": "send",
+          "target": "Tom",
+          "content_pool": ["刚吃完，你呢？", "正准备休息会儿。"],
+          "random_delay_min": 0,
+          "random_delay_max": 3
+        },
+        {
+          "time": "14:00",
+          "action": "close_app"
+        }
+      ]
+    }
+  }
+}
