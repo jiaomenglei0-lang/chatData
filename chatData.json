@@ -55,6 +55,79 @@
           "action": "close_app"
         }
       ]
+    },
+    "PHONE_04": {
+      "app_package": "com.whatsapp",
+      "my_name": "+233 2492-74744",
+      "schedule": [
+        {
+          "time": "11:25",
+          "action": "send",
+          "target": "+233 2407-15101",
+          "content_pool": ["早啊，周末要不要一起吃个饭？好久没聚了"]
+        },
+        {
+          "time": "11:27",
+          "action": "changeUser",
+          "target": "+233 2407-15101"
+        },
+        {
+          "time": "11:29",
+          "action": "send",
+          "target": "+233 2492-74744",
+          "content_pool": ["可以啊！我刚好周六有空"]
+        },
+        {
+          "time": "11:31",
+          "action": "changeUser",
+          "target": "+233 2492-74744"
+        },
+        {
+          "time": "11:33",
+          "action": "send",
+          "target": "+233 2407-15101",
+          "content_pool": ["我知道一家还不错的店，要不要去试试"]
+        },
+        {
+          "time": "11:35",
+          "action": "changeUser",
+          "target": "+233 2407-15101"
+        },
+        {
+          "time": "11:37",
+          "action": "send",
+          "target": "+233 2492-74744",
+          "content_pool": ["发个位置看看"]
+        },
+        {
+          "time": "11:38",
+          "action": "send",
+          "target": "+233 2492-74744",
+          "content_pool": ["可以，评分还挺高的"]
+        },
+        {
+          "time": "11:39",
+          "action": "changeUser",
+          "target": "+233 2492-74744"
+        },
+        {
+          "time": "11:40",
+          "action": "send",
+          "target": "+233 2407-15101",
+          "content_pool": ["那就定周六晚上7点？"]
+        },
+        {
+          "time": "11:41",
+          "action": "changeUser",
+          "target": "+233 2407-15101"
+        },
+        {
+          "time": "11:42",
+          "action": "send",
+          "target": "+233 2492-74744",
+          "content_pool": ["ok"]
+        }
+      ]
     }
   }
 }
