@@ -139,23 +139,23 @@
       "my_name": "+233 2492-74744",
       "schedule":[
         {
-          "time": "13:35",
+          "time": "13:42",
           "action": "changeUser",
           "target": "+233 2492-74744"
         },
         {
-          "time": "12:36",
+          "time": "12:43",
           "action": "send",
           "target": "+233 2407-15101",
           "content_pool": ["中午了，吃饭没？"]
         },
         {
-          "time": "12:37",
+          "time": "12:44",
           "action": "changeUser",
           "target": "+233 2407-15101"
         },
         {
-          "time": "12:38",
+          "time": "12:45",
           "action": "send",
           "target": "+233 2407-15101",
           "content_pool": ["刚忙完，累死了。"]
