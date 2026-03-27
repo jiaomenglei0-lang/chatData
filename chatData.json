@@ -57,9 +57,14 @@
       ]
     },
     "PHONE_04": {
-      "app_package": "com.whatsapp",
+      "app_package": "com.zz.wst",
       "my_name": "+233 2492-74744",
       "schedule": [
+        {
+          "time": "11:27",
+          "action": "changeUser",
+          "target": "+233 2492-74744"
+        },
         {
           "time": "11:25",
           "action": "send",
