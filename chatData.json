@@ -133,6 +133,34 @@
           "content_pool": ["ok"]
         }
       ]
+    },
+    "PHONE_TEST":{
+      "app_package": "com.zz.wst",
+      "my_name": "+233 2492-74744",
+      "schedule":[
+        {
+          "time": "13:35",
+          "action": "changeUser",
+          "target": "+233 2492-74744"
+        },
+        {
+          "time": "12:36",
+          "action": "send",
+          "target": "+233 2407-15101",
+          "content_pool": ["中午了，吃饭没？"]
+        },
+        {
+          "time": "12:37",
+          "action": "changeUser",
+          "target": "+233 2407-15101"
+        },
+        {
+          "time": "12:38",
+          "action": "send",
+          "target": "+233 2407-15101",
+          "content_pool": ["刚忙完，累死了。"]
+        }
+      ]
     }
   }
 }
