@@ -62,74 +62,80 @@
       "schedule": [
         {
           "time": "11:27",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2492-74744"
         },
         {
           "time": "11:25",
           "action": "send",
-          "target": "+233 2407-15101",
+          "target": "+233 24 071 5101",
+          "name":"",
           "content_pool": ["早啊，周末要不要一起吃个饭？好久没聚了"]
         },
         {
           "time": "11:27",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2407-15101"
         },
         {
           "time": "11:29",
           "action": "send",
-          "target": "+233 2492-74744",
+          "target": "+233 249274744",
+          "name": "Kojo",
           "content_pool": ["可以啊！我刚好周六有空"]
         },
         {
           "time": "11:31",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2492-74744"
         },
         {
           "time": "11:33",
           "action": "send",
-          "target": "+233 2407-15101",
+          "target": "+233 24 071 5101",
+          "name":"",
           "content_pool": ["我知道一家还不错的店，要不要去试试"]
         },
         {
           "time": "11:35",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2407-15101"
         },
         {
           "time": "11:37",
           "action": "send",
-          "target": "+233 2492-74744",
+          "target": "+233 249274744",
+          "name": "Kojo",
           "content_pool": ["发个位置看看"]
         },
         {
           "time": "11:38",
           "action": "send",
-          "target": "+233 2492-74744",
+          "target": "+233 249274744",
           "content_pool": ["可以，评分还挺高的"]
         },
         {
           "time": "11:39",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2492-74744"
         },
         {
           "time": "11:40",
           "action": "send",
-          "target": "+233 2407-15101",
+          "target": "+233 24 071 5101",
+          "name":"",
           "content_pool": ["那就定周六晚上7点？"]
         },
         {
           "time": "11:41",
-          "action": "changeUser",
+          "action": "change_user",
           "target": "+233 2407-15101"
         },
         {
           "time": "11:42",
           "action": "send",
-          "target": "+233 2492-74744",
+          "target": "+233 249274744",
+          "name": "Kojo",
           "content_pool": ["ok"]
         }
       ]
