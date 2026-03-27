@@ -61,7 +61,7 @@
       "my_name": "+233 2492-74744",
       "schedule": [
         {
-          "time": "11:27",
+          "time": "16:31",
           "action": "change_user",
           "target": "+233 2492-74744"
         },
